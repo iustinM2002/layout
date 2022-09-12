@@ -1,0 +1,142 @@
+
+.icons img{
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+.phone-icon{
+    margin: 0rem 3rem ;
+}
+#form-section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 2rem;
+    background-image: url('../images/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.request-text-spacing{
+    width: 70%;
+    color: white;
+
+}
+.section-header{
+    font-size: 48px;
+    padding: 3rem 0rem;
+}
+.section-p{
+    font-size:24px ;
+    line-height: 32px;
+    width: 80%;
+}
+.form-title{
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding-bottom: 2rem ;
+}
+.outside-form-header{
+    width: 80%;
+    min-height: 90vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.form-header-container{
+    margin: 0rem auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 3rem 4rem;
+}
+.form-header-container label{
+    font-size: 0.95rem;
+    padding: 0.2rem 0rem;
+}
+.form-header-container input{
+    padding: 0.5rem 1.5rem;
+    font-size: 0.95rem;
+    border:1px solid #B4B4B4;
+    margin-bottom: 1.5rem;
+    outline: none;
+    min-height: 40px;
+    
+}
+.form-header-container input::placeholder{
+    color: #7b7b7b;
+}
+.submit-button{
+    border: 2px solid #F62D63;
+    color: #F62D63;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    background: none;
+    cursor: pointer;
+    transition:all 0.3s ease;
+}
+.submit-button:hover{
+    color: white;
+    background: #F62D63;
+}
+.phone-number-input-container{
+    width: 100%;
+    display: flex;
+    
+}
+.phone-number-input-container input{
+    width: 100%;
+    min-height: 40px;
+}
+.phone-number-input-container select{
+    height: 40px;
+    padding: 0px 10px;
+    background: none;
+    border-top:1px solid #B4B4B4
+    ;
+    border-left:1px solid #B4B4B4
+    ;
+    border-bottom:1px solid #B4B4B4
+    ;
+
+    box-shadow: none;
+}
+.valid-img{
+    width: 15px;
+    height: 15px;
+    margin: 0rem 1rem;
+    display: none;
+}
+
+.email-input-container{
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    border:1px solid #B4B4B4;
+    display: flex;
+    align-items: center;
+ 
+}
+.email-input-container input{
+    padding: 0px ; 
+    margin: 0px ;
+    width: 100%;
+    border: none;
+    padding: 0rem 1.5rem; 
+}
+.valid{
+    border:1px solid #2bbd2b;
+}
+.invalid{
+     border:1px solid #bd2b2b;
+}

@@ -1,0 +1,117 @@
+footer{
+    width: 100%;
+    background-color: black;
+    min-height: 30vh;
+    position: relative;
+}
+.footer-logo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #f62d63;
+    color: #F62D63;
+    padding: 1.5rem 0.1rem;
+}
+.footer-logo h3{
+    font-weight: 400;
+}
+.footer-main{
+    width: 60%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 20vh;
+    border-bottom: 2px solid #f62d63;
+    
+}
+.footer-columns{
+    width: 40%;
+    justify-content: space-between;
+    display: flex;
+    min-height: 10vh;
+}
+.footer-columns .column{
+    display: flex;
+    flex-direction: column;
+    min-height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-columns .column a,.footer-end a{
+    color: #868686;
+}
+.footer-end{
+    color: #868686;
+    display: flex;
+    width: 60%;
+    margin: 0px auto;
+    justify-content: space-between;
+    min-height: 10vh;
+    align-items: center;
+}
+.footer-terms a{
+    padding: 0rem 2rem;
+}
+.footer-terms{
+    display: flex;
+    
+}
+.up-arrow{
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    background: #636363;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0.5rem;
+    width: 30px;
+    height: 30px;
+    font-size: 1.2rem;
+}
+@media screen and  (max-width:1150px){
+    .footer-terms a{
+        padding: 0rem 0.5rem;
+    }
+}
+@media screen and  (max-width:800px){
+    .footer-main{
+        border: none;
+        justify-content: center;
+    }
+    .footer-columns{
+        display: none;
+    }
+    .footer-end{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .footer-terms{
+        
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-terms a{
+        padding: 0.5rem 0rem;
+    }
+    .hide-footer{
+        padding: 2rem 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-copy{
+        border-top: 1px solid #F62D63;
+        min-height: 5vh;
+        display: flex;
+        padding: 1rem 0rem;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    
+}

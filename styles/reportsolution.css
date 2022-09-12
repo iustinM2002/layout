@@ -1,0 +1,90 @@
+/* report section start */
+#report-laptop{
+    min-height: 60vh;
+    width: 100%;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+ 
+}
+.report-text-container{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.report-text-spacing{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.laptop-image{
+    width: 50%;
+    position: relative;
+   
+}
+.laptop-image img{
+    position: absolute;
+    right: -100%;
+    bottom: -20%;
+}
+/* report section end */
+/* solutions section start */
+#solutions-section{
+    min-height: 60vh ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.solution-header{
+    width: 60%;
+    padding: 5rem 0rem 0rem 0rem;
+}
+.text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.solution-images{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+}
+.solution-container{
+   
+    left: 390px;
+    width: 340px;
+    height: 410px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 3rem 1rem;
+}
+.solution-container h4{
+    color: #F62D63;
+}
+.solution-container h2{
+    color: white;
+    padding: 0.7rem 0rem;
+}
+.help-center{
+    background-image: url('../images/bg\ w\ overlay.png');
+}
+.customer-care{
+    margin: 0rem 2rem;
+    background-image: url('../images//bg\ w\ overlay-1.png');
+}
+.social-monitoring{
+    background-image: url('../images/bg\ w\ overlay-2.png');
+}
+/* solutions section end */
