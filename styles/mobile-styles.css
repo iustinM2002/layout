@@ -37,9 +37,10 @@
         padding-top: 2rem;
         text-align: center;
     }
+    laptop-image
     .section-header{
         font-size: 28px;
-        padding: 1rem 0rem;
+        padding: 1rem 0;
     }
     .section-p{
         font-size:20px ;
@@ -52,6 +53,10 @@
         width: 80%;
         padding-top: 3rem;
         min-height: 60vh;
+    }
+    .form-header-container{
+        margin: 0 auto;
+
     }
     .report-text-container{
         width: 100%;
@@ -74,6 +79,7 @@
     
     .laptop-image{
         width: 100%;
+        min-height: 400px;
     }
     .laptop-image img{
         right: -30%;
@@ -108,7 +114,7 @@
     }
     .section-header{
         font-size: 28px;
-        padding: 1rem 0rem;
+        padding: 1rem 0;
     }
     .section-p{
         font-size:20px ;

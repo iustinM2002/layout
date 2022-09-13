@@ -1,6 +1,7 @@
 const emailInput = document.getElementById('email_address');
 const validationIcon = document.getElementsByClassName('valid-img')[0];
-const emailContainer = document.getElementsByClassName('email-input-container')[0]
+const emailContainer = document.getElementsByClassName('email-input-container')[0];
+
 // functions declarations
 const validateEmail = (e) =>{
     const inputValue = e.target.value;

@@ -41,7 +41,7 @@
 }
 .solution-header{
     width: 60%;
-    padding: 5rem 0rem 0rem 0rem;
+    padding: 5rem 0 0 0;
 }
 .text{
     width: 50%;
@@ -55,7 +55,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding: 2rem 0rem;
+    padding: 2rem 0;
 }
 .solution-container{
    
@@ -75,13 +75,13 @@
 }
 .solution-container h2{
     color: white;
-    padding: 0.7rem 0rem;
+    padding: 0.7rem 0;
 }
 .help-center{
     background-image: url('../images/bg\ w\ overlay.png');
 }
 .customer-care{
-    margin: 0rem 2rem;
+    margin: 0 2rem;
     background-image: url('../images//bg\ w\ overlay-1.png');
 }
 .social-monitoring{
